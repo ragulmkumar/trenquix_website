@@ -1,6 +1,6 @@
 const metrics = [
-  { number: "30+", label: "Projects Delivered" },
-  { number: "5★", label: "Client Rating" },
+  { number: "05+", label: "Projects Delivered" },
+  { number: "4.5★", label: "Client Rating" },
   { number: "3x", label: "Avg. Traffic Growth" },
 ];
 

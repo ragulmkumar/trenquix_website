@@ -39,14 +39,6 @@ const services = [
       "Backend APIs and third-party integrations - payment, CRM, email, maps.",
     features: ["RESTful APIs", "Webhooks", "Third-party services"],
   },
-  {
-    number: "06",
-    icon: "support_agent",
-    title: "Website Maintenance & Support",
-    description:
-      "Ongoing support, updates, performance optimization, and security.",
-    features: ["24/7 monitoring", "Speed optimization", "Security updates"],
-  },
 ];
 
 export default function Services() {
