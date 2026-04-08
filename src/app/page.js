@@ -9,6 +9,7 @@ import Process from "./components/Process";
 import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
 import Ticker from "./components/Ticker";
+import WhatsAppButton from "./components/WhatsAppButton";
 import WhyUs from "./components/WhyUs";
 
 export default function Home() {
@@ -45,6 +46,16 @@ export default function Home() {
         <Testimonials />
         <Contact />
       </main>
+      <WhatsAppButton
+        placement="floating"
+        pulse
+        tooltip
+        showDelayMs={5000}
+        enableScrollVisibility
+        scrollThreshold={140}
+        message="Hi Trenquix, I just visited your website and want to get a free consultation for my project."
+        analyticsEventName="whatsapp_floating_cta"
+      />
       <Footer />
     </div>
   );
